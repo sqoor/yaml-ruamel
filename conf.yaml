@@ -1,0 +1,31 @@
+# This is a comment.
+
+person:
+  name: John Doe # another comment
+  age: 30
+  address:
+    street: 123 Main Street
+    city: Anytown
+    state: CA
+    zipcode: 12345
+  phone:
+    - number: 123-456-7890
+      type: home
+    - number: 555-555-5555
+      type: work
+
+products:
+  - name: iPhone 13 Pro
+    price: $999
+    description: The latest and greatest iPhone from Apple.
+  - name: Samsung Galaxy S22 Ultra
+    price: $1199
+    description: The most powerful Android phone on the market.
+  - name: Google Pixel 6 Pro
+    price: $899
+    description: The best Pixel phone yet.
+    # third comment
+abc:
+  - abc: x
+
+xyz: "y"

@@ -1,0 +1,21 @@
+abc:
+  # This will be place below 'abc:b' value.
+- a   # comment 1
+- b   # comment 4
+xyz:
+  a: 1 # comment 2
+  b: 2
+  c: 3
+  d: 4
+  e: 5
+  f: 6 # comment 3
+# This comment will be placed above 'file' key
+          # This is the 'file' key.
+file: gs://bucket-name/file.csv
+# here do something
+
+# comment before 'lucky' key
+lucky:
+
+key2: ''
+key: value          # Comment beside the value

@@ -1,0 +1,10 @@
+abc:
+- a       # comment 1
+- b       # comment 4
+xyz:
+  a: 1    # comment 2
+  b: 2
+  c: 3    # comment 5
+  d: 4              # comment 7
+  e: 5 # comment 6
+  f: 6 # comment 3
