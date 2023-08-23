@@ -3,7 +3,6 @@ from __future__ import print_function
 import sys
 import ruamel.yaml
 
-# https://yaml.readthedocs.io/en/latest/detail.html
 
 yaml = ruamel.yaml.YAML()  # defaults to round-trip
 
@@ -48,6 +47,7 @@ with open("output2.yaml", "w") as yaml_file:
     yaml.dump(data, yaml_file)
 
 
-import site
 
+# look up for the libraries folders:
+import site
 print(site.getsitepackages())
